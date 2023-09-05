@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Times, serif;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.absol {
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+}
+.hola{
+    left: 573px;
+}
+.rel {
+    position: relative;
+}
+
+.remove {
+    position: absolute;
+    left: 434px;
+    width: 22px;
+    height: 19px;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+}
+
+.textdec {
+    text-decoration: line-through;
+}
+
+.container {
+    /* background-color: rgb(184, 136, 144); */
+    position: relative;
+    border-radius: 20px;
+    font-family: 'Comfortaa', cursive;
+    /* margin: 88px 69px -257px; */
+
+
+}
+
+.container input {
+    width: 462px;
+    height: 28px;
+    font-size: large;
+    border-radius: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#btn {
+    width: 41px;
+    height: 32px;
+    left: 425px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* top: 0px; */
+}
+
+.decorate {
+    width: 500px;
+    height: 550px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.create{
+    font-family: 'Comfortaa', cursive;
+    padding: 7px 9px;
+    background-color: whitw;
+}
